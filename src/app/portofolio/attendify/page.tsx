@@ -38,7 +38,7 @@ export default function AttendifyPage() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <img
+          <Image
             src="/projects/attendify1.png"
             alt="Attendify Preview"
             className="rounded-2xl shadow-xl hover:scale-105 transition"
@@ -128,9 +128,9 @@ export default function AttendifyPage() {
           viewport={{ once: true }}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
         >
-          <img src="/projects/attendify2.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <img src="/projects/attendify3.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <img src="/projects/attendify4.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <Image src="/projects/attendify2.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <Image src="/projects/attendify3.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <Image src="/projects/attendify4.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
         </motion.div>
       </section>
 

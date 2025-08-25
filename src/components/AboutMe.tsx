@@ -1,7 +1,7 @@
 // src/components/AboutMe.tsx
 "use client";
 import Link from "next/link";
-
+import Image from "next/image";
 import { FaLaravel, FaGitAlt, FaWhatsapp, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import {
   SiFlutter, SiDotnet, SiPostman, SiTailwindcss,
@@ -71,7 +71,7 @@ export default function AboutMe() {
       {/* ABOUT SECTION */}
       <section id="about" className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
         <div className="container mx-auto px-6 flex flex-col items-center text-center">
-          <img
+          <Image
             src="/profile.jpg"
             alt="Abdurrahman"
             className="w-40 h-40 rounded-full object-cover border-4 border-primary mb-6 shadow-xl"
@@ -129,7 +129,7 @@ export default function AboutMe() {
               <Link href={`/portofolio/${project.slug}`} key={idx}>
                 <div className="bg-white/10 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition overflow-hidden group">
                   <div className="overflow-hidden">
-                    <img
+                    <Image
                       src={project.img}
                       alt={project.title}
                       className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
