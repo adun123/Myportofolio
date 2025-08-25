@@ -147,7 +147,7 @@ export default function TanifestPage() {
         >
           <img src="/projects/tanifest1.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
           <img src="/projects/tanifest2.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <img src="/projects/tanifest.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/tanifest5.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
         </motion.div>
       </section>
 

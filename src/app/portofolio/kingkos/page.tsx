@@ -39,7 +39,7 @@ export default function KingkosPage() {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="/projects/kingkos1.png"
+            src="/projects/kingkos1.jpg"
             alt="Kingkos Preview"
             className="rounded-2xl shadow-xl hover:scale-105 transition"
           />

@@ -158,7 +158,7 @@ export default function AboutMe() {
           <a href="https://wa.me/6281398515784" target="_blank" rel="noreferrer">
             <FaWhatsapp className="hover:text-green-400" />
           </a>
-          <a href="https://github.com/username" target="_blank" rel="noreferrer">
+          <a href="https://github.com/adun123" target="_blank" rel="noreferrer">
             <FaGithub className="hover:text-white" />
           </a>
           <a href="www.linkedin.com/in/abdurrahman-8719092b1" target="_blank" rel="noreferrer">

@@ -140,24 +140,23 @@ export default function MedimePage() {
           viewport={{ once: true }}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
         >
-          <img src="/projects/medime2.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <img src="/projects/medime3.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <img src="/projects/medime4.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/medime1.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/medime2.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/medime3.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
         </motion.div>
       </section>
 
       {/* Action Buttons */}
       <div className="flex justify-center gap-6 mb-12">
-        <a
-          href="https://medime.live/"
-          target="_blank"
-          rel="noreferrer"
+        <button
+          type="button"
+          onClick={() => alert("Mohon maaf belum tersedia")}
           className="bg-gradient-to-r from-emerald-500 to-teal-600 flex items-center gap-2 text-white px-6 py-3 rounded-lg font-semibold shadow hover:scale-105 transition"
         >
           <FaExternalLinkAlt /> View Live
-        </a>
+        </button>
         <a
-          href="https://github.com/username/medime"
+          href="https://github.com/adun123/Medime.git"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-200 transition"
