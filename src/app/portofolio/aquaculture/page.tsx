@@ -131,22 +131,22 @@ export default function AquaculturePage() {
           viewport={{ once: true }}
           className="grid grid-cols-1 sm:grid-cols-2 gap-6"
         >
-          <Image
+          <img
             src="/projects/aqua1.png"
             alt="User Dashboard"
             className="rounded-xl shadow-lg hover:scale-105 transition"
           />
-          <Image
+          <img
             src="/projects/aqua2.png"
             alt="Admin Dashboard"
             className="rounded-xl shadow-lg hover:scale-105 transition"
           />
-          <Image
+          <img
             src="/projects/aqua3.png"
             alt="User Feature"
             className="rounded-xl shadow-lg hover:scale-105 transition"
           />
-          <Image
+          <img
             src="/projects/aqua4.png"
             alt="Admin Feature"
             className="rounded-xl shadow-lg hover:scale-105 transition"

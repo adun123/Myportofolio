@@ -40,7 +40,7 @@ export default function BanguninPage() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <Image
+          <img
             src="/projects/project2.png"
             alt="Bangun.in Preview"
             className="rounded-2xl shadow-xl hover:scale-105 transition"
@@ -142,32 +142,32 @@ export default function BanguninPage() {
           viewport={{ once: true }}
           className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4"
         >
-          <Image
+          <img
             src="/projects/bangun1.png"
             alt="Screen 1"
             className="rounded-xl shadow-lg hover:scale-105 transition inline-block"
           />
-          <Image
+          <img
             src="/projects/bangun2.png"
             alt="Screen 2"
             className="rounded-xl shadow-lg hover:scale-105 transition inline-block"
           />
-          <Image
+          <img
             src="/projects/bangun3.png"
             alt="Screen 3"
             className="rounded-xl shadow-lg hover:scale-105 transition inline-block"
           />
-          <Image
+          <img
             src="/projects/bangun4.png"
             alt="Screen 4"
             className="rounded-xl shadow-lg hover:scale-105 transition inline-block"
           />
-           <Image
+           <img
             src="/projects/bangun5.png"
             alt="Screen 5"
             className="rounded-xl shadow-lg hover:scale-105 transition inline-block"
           />
-          <Image
+          <img
             src="/projects/bangun6.png"
             alt="Screen 6"
             className="rounded-xl shadow-lg hover:scale-105 transition inline-block"

@@ -22,7 +22,7 @@ const PortfolioDetail: React.FC<Props> = ({ project }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <h3 className="font-semibold mb-2">Tampilan User</h3>
-          <Image
+          <img
             src={project.userImage}
             alt="User Interface"
             width={600}
@@ -32,7 +32,7 @@ const PortfolioDetail: React.FC<Props> = ({ project }) => {
         </div>
         <div>
           <h3 className="font-semibold mb-2">Tampilan Admin</h3>
-          <Image
+          <img
             src={project.adminImage}
             alt="Admin Interface"
             width={600}

@@ -80,7 +80,7 @@ export default function TanifestPage() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <Image
+          <img
             src="/projects/tanifest1.png"
             alt="Tanifest Preview"
             className="rounded-2xl shadow-xl hover:scale-105 transition"
@@ -145,9 +145,9 @@ export default function TanifestPage() {
           viewport={{ once: true }}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
         >
-          <Image src="/projects/tanifest1.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <Image src="/projects/tanifest2.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <Image src="/projects/tanifest.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/tanifest1.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/tanifest2.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/tanifest.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
         </motion.div>
       </section>
 
