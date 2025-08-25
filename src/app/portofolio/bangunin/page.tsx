@@ -25,10 +25,9 @@ export default function BanguninPage() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="text-gray-300 text-lg max-w-3xl mx-auto"
         >
-          Platform web berbasis Laravel untuk menghubungkan pengguna dengan
-          penyedia jasa konstruksi, desain interior, dan eksterior. Memudahkan
-          pelanggan dalam mencari, memesan, dan memantau progress pembangunan
-          rumah secara terintegrasi.
+          A Laravel-based web platform that connects users with construction service providers, interior, and exterior designers. 
+          It simplifies the process for customers to search, order, and 
+          monitor the progress of home construction in an integrated way.
         </motion.p>
       </section>
 
@@ -56,13 +55,11 @@ export default function BanguninPage() {
           <h2 className="text-3xl font-bold text-amber-400 mb-6">
             About The Project
           </h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            Bangun.in adalah platform yang dibangun dengan Laravel, MySQL, dan
-            TailwindCSS untuk mempertemukan klien dengan penyedia jasa konstruksi
-            maupun desain rumah. Sistem ini memfasilitasi manajemen pesanan,
-            tracking progress pembangunan, hingga komunikasi antara pengguna dan
-            kontraktor.
-          </p>
+            <p className="text-gray-300 leading-relaxed mb-6 text-justify">
+             Bangun.in is a platform built with Laravel, MySQL, and TailwindCSS 
+             that connects clients with construction and home design service providers. It helps manage orders, track project progress, 
+             and streamline communication between users and contractors.
+            </p>
 
           {/* Tech Stack */}
           <div>
@@ -107,9 +104,9 @@ export default function BanguninPage() {
               User Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Cari dan pesan jasa konstruksi & desain</li>
-              <li>Lihat portfolio kontraktor</li>
-              <li>Tracking progress pembangunan rumah</li>
+                <li>Find and book construction or design services easily</li>
+                <li>Browse contractor portfolios for inspiration</li>
+                <li>Track your home building progress in real-time</li>
             </ul>
           </motion.div>
 
@@ -124,9 +121,9 @@ export default function BanguninPage() {
               Admin Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Kelola kontraktor & pengguna</li>
-              <li>Verifikasi Portofolio</li>
-              <li>Moderasi Komentar</li>
+                <li>Manage contractors & users</li>
+                <li>Verify portfolios</li>
+                <li>Moderate comments</li>
             </ul>
           </motion.div>
         </div>

@@ -78,10 +78,7 @@ export default function AboutMe() {
           />
           <h2 className="text-4xl font-extrabold mb-3">Abdurrahman</h2>
           <p className="max-w-2xl text-gray-300 mb-10 leading-relaxed">
-  {`Hi, I'm Abdurrahman — a Web & Mobile Developer with experience
-  in Laravel, Flutter, and .NET. I love creating scalable
-  and user-friendly applications, and I'm always open to
-  new opportunities & collaborations.`}
+  {`Hi, I'm Abdurrahman — Fullstack Developer with a background in Information Systems, skilled in web & mobile development, and eager to contribute to impactful software projects.`}
 </p>
 
 
