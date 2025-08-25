@@ -155,16 +155,16 @@ export default function AboutMe() {
         </div>
 
         <div className="flex justify-center gap-6 text-3xl mb-4">
-          <a href="https://wa.me/62812345678" target="_blank" rel="noreferrer">
+          <a href="https://wa.me/6281398515784" target="_blank" rel="noreferrer">
             <FaWhatsapp className="hover:text-green-400" />
           </a>
           <a href="https://github.com/username" target="_blank" rel="noreferrer">
             <FaGithub className="hover:text-white" />
           </a>
-          <a href="https://linkedin.com/in/username" target="_blank" rel="noreferrer">
+          <a href="www.linkedin.com/in/abdurrahman-8719092b1" target="_blank" rel="noreferrer">
             <FaLinkedin className="hover:text-blue-500" />
           </a>
-          <a href="https://instagram.com/username" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/mmaan_21?igsh=d3dvZm84OHFmbm1v&utm_source=qr" target="_blank" rel="noreferrer">
             <FaInstagram className="hover:text-pink-500" />
           </a>
         </div>
