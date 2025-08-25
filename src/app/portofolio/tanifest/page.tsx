@@ -1,23 +1,23 @@
-// src/app/portofolio/medime/page.tsx
+// src/app/portofolio/tanifest/page.tsx
 "use client";
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt, FaLaravel, FaMobileAlt, FaDatabase } from "react-icons/fa";
-import { SiFlutter, SiTailwindcss, SiMysql } from "react-icons/si";
+import { FaGithub, FaExternalLinkAlt, FaLaravel, FaShoppingCart, FaDatabase } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiMysql } from "react-icons/si";
 
-export default function MedimePage() {
+export default function TanifestPage() {
   return (
     <main className="bg-gray-950 min-h-screen text-white pb-20">
       {/* Hero */}
-      <section className="relative py-24 text-center bg-gradient-to-r from-emerald-700/30 via-teal-700/20 to-transparent">
+      <section className="relative py-24 text-center bg-gradient-to-r from-green-700/30 via-yellow-600/10 to-transparent">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-5xl font-extrabold mb-4 text-emerald-400"
+          className="text-5xl font-extrabold mb-4 text-green-400"
         >
-          Medime
+          Tanifest
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -25,40 +25,27 @@ export default function MedimePage() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="text-gray-300 text-lg max-w-3xl mx-auto"
         >
-          Flutter app for pharmacy operations with Laravel backend.
-          Memudahkan apotek dalam mengelola stok obat, resep, transaksi, dan laporan secara digital.
+          An e-commerce platform for buying fruits, vegetables, and spice packages.  
+          Marketplace segar yang menghubungkan petani lokal dengan pembeli.
         </motion.p>
       </section>
 
       {/* About Project */}
       <section className="container mx-auto px-6 max-w-6xl mb-20 grid md:grid-cols-2 gap-12 items-center">
-        {/* Left side image */}
+        {/* Left side description */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <img
-            src="/projects/project3.png"
-            alt="Medime Preview"
-            className="rounded-2xl shadow-xl hover:scale-105 transition"
-          />
-        </motion.div>
-
-        {/* Right side description */}
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h2 className="text-3xl font-bold text-emerald-400 mb-6">
+          <h2 className="text-3xl font-bold text-green-400 mb-6">
             About The Project
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
-            Medime adalah aplikasi mobile berbasis Flutter dengan backend Laravel
-            yang berfokus pada manajemen apotek. Mulai dari manajemen stok obat,
-            resep pasien, transaksi penjualan, hingga laporan penjualan harian
-            semua terintegrasi dalam satu platform.
+            Tanifest adalah platform e-commerce yang fokus pada penjualan hasil bumi
+            seperti buah, sayuran, dan rempah-rempah. Aplikasi ini memudahkan petani
+            lokal untuk memasarkan produknya dan pembeli untuk mendapatkan bahan segar
+            dengan cepat, transparan, dan terpercaya.
           </p>
 
           {/* Tech Stack */}
@@ -66,10 +53,10 @@ export default function MedimePage() {
             <h3 className="text-xl font-semibold text-white mb-4">⚡ Tech Stack</h3>
             <ul className="grid grid-cols-2 gap-4 text-gray-300">
               <li className="flex items-center gap-2">
-                <SiFlutter className="text-sky-400 text-xl" /> Flutter
+                <FaLaravel className="text-red-500 text-xl" /> Laravel
               </li>
               <li className="flex items-center gap-2">
-                <FaLaravel className="text-red-500 text-xl" /> Laravel
+                <SiNextdotjs className="text-white text-xl" /> Next.js
               </li>
               <li className="flex items-center gap-2">
                 <SiMysql className="text-blue-400 text-xl" /> MySQL
@@ -78,7 +65,7 @@ export default function MedimePage() {
                 <SiTailwindcss className="text-teal-400 text-xl" /> TailwindCSS
               </li>
               <li className="flex items-center gap-2">
-                <FaMobileAlt className="text-green-400 text-xl" /> Mobile App
+                <FaShoppingCart className="text-orange-400 text-xl" /> E-Commerce
               </li>
               <li className="flex items-center gap-2">
                 <FaDatabase className="text-yellow-400 text-xl" /> Database Mgmt
@@ -86,45 +73,61 @@ export default function MedimePage() {
             </ul>
           </div>
         </motion.div>
+
+        {/* Right side image */}
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <img
+            src="/projects/tanifest1.png"
+            alt="Tanifest Preview"
+            className="rounded-2xl shadow-xl hover:scale-105 transition"
+          />
+        </motion.div>
       </section>
 
-      {/* Features */}
+      {/* Features (2 Columns) */}
       <section className="container mx-auto px-6 max-w-5xl mb-20">
-        <h3 className="text-2xl font-bold mb-10 text-center">Key Features</h3>
+        <h3 className="text-2xl font-bold mb-10 text-center text-green-400">
+          Key Features
+        </h3>
+
         <div className="grid md:grid-cols-2 gap-10">
+          {/* Customer Features */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg"
+            className="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-lg"
           >
-            <h4 className="font-semibold text-lg mb-2 text-emerald-400">
-              Pharmacy Features
+            <h4 className="font-semibold text-lg mb-2 text-green-400">
+              Customer Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Manajemen stok obat & kadaluarsa</li>
-              <li>Input resep pasien</li>
-              <li>Transaksi penjualan cepat</li>
-              <li>Riwayat transaksi pelanggan</li>
+              <li>Pilih & beli produk segar</li>
+              <li>Keranjang belanja & checkout</li>
+              <li>Lacak status pesanan</li>
             </ul>
           </motion.div>
 
+          {/* Seller Features */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg"
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-lg"
           >
-            <h4 className="font-semibold text-lg mb-2 text-emerald-400">
-              Admin Features
+            <h4 className="font-semibold text-lg mb-2 text-green-400">
+              Seller Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Kelola user & role</li>
-              <li>Laporan penjualan harian/mingguan</li>
-              <li>Monitoring stok & permintaan</li>
-              <li>Integrasi dengan sistem backend</li>
+              <li>Upload produk & foto</li>
+              <li>Kelola stok & harga</li>
+              <li>Terima & proses pesanan</li>
             </ul>
           </motion.div>
         </div>
@@ -132,7 +135,9 @@ export default function MedimePage() {
 
       {/* Screenshots */}
       <section className="container mx-auto px-6 max-w-6xl mb-16">
-        <h3 className="text-2xl font-bold mb-8 text-center">Screenshots</h3>
+        <h3 className="text-2xl font-bold mb-8 text-center text-green-400">
+          Screenshots
+        </h3>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -140,24 +145,24 @@ export default function MedimePage() {
           viewport={{ once: true }}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
         >
-          <img src="/projects/medime2.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <img src="/projects/medime3.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
-          <img src="/projects/medime4.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/tanifest1.png" alt="Screen 1" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/tanifest2.png" alt="Screen 2" className="rounded-xl shadow-lg hover:scale-105 transition" />
+          <img src="/projects/tanifest5.png" alt="Screen 3" className="rounded-xl shadow-lg hover:scale-105 transition" />
         </motion.div>
       </section>
 
       {/* Action Buttons */}
       <div className="flex justify-center gap-6 mb-12">
         <a
-          href="https://medime.live/"
+          href="https://tanifest.live/"
           target="_blank"
           rel="noreferrer"
-          className="bg-gradient-to-r from-emerald-500 to-teal-600 flex items-center gap-2 text-white px-6 py-3 rounded-lg font-semibold shadow hover:scale-105 transition"
+          className="bg-gradient-to-r from-green-500 to-lime-600 flex items-center gap-2 text-white px-6 py-3 rounded-lg font-semibold shadow hover:scale-105 transition"
         >
           <FaExternalLinkAlt /> View Live
         </a>
         <a
-          href="https://github.com/username/medime"
+          href="https://github.com/username/tanifest"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-200 transition"
@@ -169,7 +174,7 @@ export default function MedimePage() {
       {/* Back Button */}
       <div className="text-center">
         <Link href="/#projects">
-          <span className="inline-block mt-4 bg-emerald-500 text-white px-6 py-3 rounded-xl hover:bg-emerald-600 transition cursor-pointer">
+          <span className="inline-block mt-4 bg-green-500 text-white px-6 py-3 rounded-xl hover:bg-green-600 transition cursor-pointer">
             Back to Projects
           </span>
         </Link>

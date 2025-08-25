@@ -43,18 +43,24 @@ export default function AboutMe() {
       slug: "medime",
     },
       {
-      img: "/projects/project4.jpg",
+      img: "/projects/project4.png",
       title: "Tanifest - Fresh Produce Marketplace",
       desc: "An e-commerce platform for buying fruits, vegetables, and spice packages.",
       slug: "tanifest",
     },
 
-  {
-  img: "/projects/project5.jpg",
-  title: "Kingkos - Costume & Outfit Rental",
-  desc: "A web platform for renting costumes, traditional attire, formal wear, and more.",
-  slug: "kingkos",
-},
+      {
+      img: "/projects/kingkos2.png",
+      title: "Kingkos - Costume & Outfit Rental",
+      desc: "A web platform for renting costumes, traditional attire, formal wear, and more.",
+      slug: "kingkos",
+    },
+     {
+      img: "/projects/project5.jpg",
+      title: "Attendify  - Employee Attendance Managemen",
+      desc: "sistem absensi karyawan real-time berbasis web.",
+       slug: "attendify",
+    },
 
 
 
