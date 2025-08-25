@@ -166,7 +166,7 @@ export default function AboutMe() {
           </a>
         </div>
 
-        <p>Email: abdurrahman@example.com</p>
+        <p>Email: abdurrahmanaikon@gmail.com</p>
         <p className="text-sm mt-2">© {new Date().getFullYear()} Abdurrahman. All rights reserved.</p>
       </footer>
     </>
