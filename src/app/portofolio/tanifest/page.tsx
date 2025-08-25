@@ -25,8 +25,8 @@ export default function TanifestPage() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="text-gray-300 text-lg max-w-3xl mx-auto"
         >
-          An e-commerce platform for buying fruits, vegetables, and spice packages.  
-          Marketplace segar yang menghubungkan petani lokal dengan pembeli.
+          An e-commerce platform for buying fruits, vegetables, and spice packages.
+          A fresh marketplace connecting local farmers with buyers.
         </motion.p>
       </section>
 
@@ -42,10 +42,10 @@ export default function TanifestPage() {
             About The Project
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
-            Tanifest adalah platform e-commerce yang fokus pada penjualan hasil bumi
-            seperti buah, sayuran, dan rempah-rempah. Aplikasi ini memudahkan petani
-            lokal untuk memasarkan produknya dan pembeli untuk mendapatkan bahan segar
-            dengan cepat, transparan, dan terpercaya.
+            Tanifest is an e-commerce platform focused on selling agricultural products
+            such as fruits, vegetables, and spices. This application makes it easy for local
+            farmers to market their products and for buyers to get fresh ingredients quickly,
+            transparently, and reliably.
           </p>
 
           {/* Tech Stack */}
@@ -107,9 +107,9 @@ export default function TanifestPage() {
               Customer Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Pilih & beli produk segar</li>
-              <li>Keranjang belanja & checkout</li>
-              <li>Lacak status pesanan</li>
+              <li>Select & buy fresh products</li>
+              <li>Shopping cart & checkout</li>
+              <li>Track order status</li>
             </ul>
           </motion.div>
 
@@ -125,9 +125,9 @@ export default function TanifestPage() {
               Seller Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Upload produk & foto</li>
-              <li>Kelola stok & harga</li>
-              <li>Terima & proses pesanan</li>
+              <li>Upload products & photos</li>
+              <li>Manage stock & prices</li>
+              <li>Receive & process orders</li>
             </ul>
           </motion.div>
         </div>
@@ -153,14 +153,12 @@ export default function TanifestPage() {
 
       {/* Action Buttons */}
       <div className="flex justify-center gap-6 mb-12">
-        <a
-          href="https://tanifest.live/"
-          target="_blank"
-          rel="noreferrer"
+        <button
+          onClick={() => alert("Maaf, demo live Tanifest saat ini belum tersedia.")}
           className="bg-gradient-to-r from-green-500 to-lime-600 flex items-center gap-2 text-white px-6 py-3 rounded-lg font-semibold shadow hover:scale-105 transition"
         >
           <FaExternalLinkAlt /> View Live
-        </a>
+        </button>
         <a
           href="https://github.com/username/tanifest"
           target="_blank"

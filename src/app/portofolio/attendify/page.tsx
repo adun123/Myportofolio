@@ -52,12 +52,12 @@ export default function AttendifyPage() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl font-bold text-blue-400 mb-6">About The Project</h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            Attendify membantu perusahaan mencatat kehadiran karyawan secara akurat dan real-time.
-            Dibangun dengan <span className="font-semibold text-white">ASP.NET Core</span> di sisi backend dan
-            <span className="font-semibold text-white"> Microsoft SQL Server</span> sebagai database (dikelola lewat SSMS),
-            mendukung pengajuan izin/cuti, pengaturan jadwal, hingga laporan kehadiran yang siap diekspor.
-          </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+            Attendify helps companies record employee attendance accurately and in real-time.
+            Built with <span className="font-semibold text-white">ASP.NET Core</span> on the backend and
+            <span className="font-semibold text-white"> Microsoft SQL Server</span> as the database (managed via SSMS),
+            it supports leave requests, schedule management, and attendance reports ready for export.
+            </p>
 
           {/* Tech Stack */}
           <div>
@@ -94,9 +94,9 @@ export default function AttendifyPage() {
           >
             <h4 className="font-semibold text-lg mb-4 text-green-400">Employee Features</h4>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>Check-in / check-out harian (web & QR-ready)</li>
-              <li>Pengajuan izin & cuti online</li>
-              <li>Lihat riwayat kehadiran & status persetujuan</li>
+                <li>Daily check-in / check-out (web & QR-ready)</li>
+                <li>Online leave & absence requests</li>
+                <li>View attendance history & approval status</li>
             </ul>
           </motion.div>
 

@@ -25,8 +25,8 @@ export default function KingkosPage() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="text-gray-300 text-lg max-w-3xl mx-auto"
         >
-          A web platform for renting costumes, traditional attire, formal wear, and more.  
-          Menyediakan layanan penyewaan pakaian dengan berbagai kategori untuk acara spesial.
+          A web platform for renting costumes, traditional attire, formal wear, and more.
+          Provides clothing rental services in various categories for special events.
         </motion.p>
       </section>
 
@@ -54,12 +54,11 @@ export default function KingkosPage() {
           <h2 className="text-3xl font-bold text-purple-400 mb-6">
             About The Project
           </h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            Kingkos adalah platform berbasis web untuk penyewaan kostum, pakaian
-            tradisional, busana formal, hingga pakaian tematik. Dengan sistem ini,
-            pengguna bisa mencari, memesan, dan mengatur jadwal sewa secara online
-            dengan mudah dan cepat.
-          </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+            Kingkos is a web-based platform for renting costumes, traditional attire,
+            formal wear, and themed outfits. With this system, users can easily search,
+            book, and schedule rentals online quickly and conveniently.
+            </p>
 
           {/* Tech Stack */}
           <div>
@@ -67,9 +66,6 @@ export default function KingkosPage() {
             <ul className="grid grid-cols-2 gap-4 text-gray-300">
               <li className="flex items-center gap-2">
                 <FaLaravel className="text-red-500 text-xl" /> Laravel
-              </li>
-              <li className="flex items-center gap-2">
-                <SiNextdotjs className="text-white text-xl" /> Next.js
               </li>
               <li className="flex items-center gap-2">
                 <SiMysql className="text-blue-400 text-xl" /> MySQL
@@ -105,10 +101,10 @@ export default function KingkosPage() {
               Customer Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Cari & filter kostum sesuai kategori</li>
-              <li>Lihat detail & foto produk</li>
-              <li>Booking & jadwal penyewaan</li>
-              <li>Riwayat pemesanan</li>
+              <li>Search & filter costumes by category</li>
+              <li>View product details & photos</li>
+              <li>Book & schedule rentals</li>
+              <li>Order history</li>
             </ul>
           </motion.div>
 
@@ -124,10 +120,10 @@ export default function KingkosPage() {
               Seller Features
             </h4>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>Upload kostum & detail harga</li>
-              <li>Kelola stok & ketersediaan</li>
-              <li>Konfirmasi & kelola pesanan</li>
-              <li>Laporan penyewaan</li>
+              <li>Upload costumes & set pricing details</li>
+              <li>Manage stock & availability</li>
+              <li>Confirm & manage orders</li>
+              <li>Rental reports</li>
             </ul>
           </motion.div>
         </div>
@@ -153,14 +149,12 @@ export default function KingkosPage() {
 
       {/* Action Buttons */}
       <div className="flex justify-center gap-6 mb-12">
-        <a
-          href="https://kingkos.live/"
-          target="_blank"
-          rel="noreferrer"
+        <button
+          onClick={() => alert("Maaf, tidak tersedia")}
           className="bg-gradient-to-r from-purple-500 to-yellow-500 flex items-center gap-2 text-white px-6 py-3 rounded-lg font-semibold shadow hover:scale-105 transition"
         >
           <FaExternalLinkAlt /> View Live
-        </a>
+        </button>
         <a
           href="https://github.com/username/kingkos"
           target="_blank"

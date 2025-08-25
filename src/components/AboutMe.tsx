@@ -72,7 +72,7 @@ export default function AboutMe() {
       <section id="about" className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
         <div className="container mx-auto px-6 flex flex-col items-center text-center">
           <img
-            src="/profile.jpg"
+            src="/photo.jpg"
             alt="Abdurrahman"
             className="w-40 h-40 rounded-full object-cover border-4 border-primary mb-6 shadow-xl"
           />
