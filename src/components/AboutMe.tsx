@@ -84,7 +84,7 @@ export default function AboutMe() {
 
           <div className="flex gap-5 mb-14">
             <a
-              href="/CV_Abdurrahman.pdf"
+              href="/Abdurrahman-resume English.pdf"
               className="bg-gradient-to-r from-primary to-pink-600 text-white px-6 py-3 rounded-xl font-semibold shadow-md hover:scale-105 transition"
               download
             >

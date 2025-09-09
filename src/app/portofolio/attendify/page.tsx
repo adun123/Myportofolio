@@ -1,11 +1,11 @@
-// src/app/portofolio/attendify/page.tsx
 "use client";
 
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt, FaUserCheck, FaServer } from "react-icons/fa";
-import { SiDotnet,  } from "react-icons/si";
+import { SiDotnet } from "react-icons/si";
 import { DiMsqlServer } from "react-icons/di";
+
 export default function AttendifyPage() {
   return (
     <main className="bg-gray-950 min-h-screen text-white pb-20">
@@ -52,12 +52,12 @@ export default function AttendifyPage() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl font-bold text-blue-400 mb-6">About The Project</h2>
-            <p className="text-gray-300 leading-relaxed mb-6">
+          <p className="text-gray-300 leading-relaxed mb-6">
             Attendify helps companies record employee attendance accurately and in real-time.
             Built with <span className="font-semibold text-white">ASP.NET Core</span> on the backend and
             <span className="font-semibold text-white"> Microsoft SQL Server</span> as the database (managed via SSMS),
             it supports leave requests, schedule management, and attendance reports ready for export.
-            </p>
+          </p>
 
           {/* Tech Stack */}
           <div>
@@ -94,9 +94,9 @@ export default function AttendifyPage() {
           >
             <h4 className="font-semibold text-lg mb-4 text-green-400">Employee Features</h4>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>Daily check-in / check-out (web & QR-ready)</li>
-                <li>Online leave & absence requests</li>
-                <li>View attendance history & approval status</li>
+              <li>Daily check-in / check-out (web & QR-ready)</li>
+              <li>Online leave & absence requests</li>
+              <li>View attendance history & approval status</li>
             </ul>
           </motion.div>
 
@@ -110,9 +110,9 @@ export default function AttendifyPage() {
           >
             <h4 className="font-semibold text-lg mb-4 text-green-400">HR / Management Features</h4>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>Monitoring kehadiran real-time & rekap otomatis</li>
-              <li>Manajemen shift & jadwal kerja</li>
-              <li>Laporan kehadiran (CSV/XLSX) & statistik</li>
+              <li>Real-time attendance monitoring & automatic recap</li>
+              <li>Shift & work schedule management</li>
+              <li>Attendance reports (CSV/XLSX) & statistics</li>
             </ul>
           </motion.div>
         </div>
